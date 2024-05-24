@@ -1,0 +1,17 @@
+/* Style sheet */
+
+body{
+    background: aliceblue;
+}
+
+body .container{
+    margin: 3em 0;
+}
+
+.brd {
+    border: 1px solid black;
+}
+
+.pading-10{
+    padding: 10px;
+}

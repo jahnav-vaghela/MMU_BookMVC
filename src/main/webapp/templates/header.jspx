@@ -1,0 +1,15 @@
+
+<jsp:root xmlns:jsp="http://java.sun.com/JSP/Page" xmlns="http://www.w3.org/1999/xhtml" version="2.0"
+          xmlns:c="http://java.sun.com/jsp/jstl/core">
+
+
+    <h1>Hello I am header </h1>
+    <p>Counting to three:</p>
+
+    <c:forEach var = "i" items="1,4,5,6,7,8,9">
+        <c:out value = "No. ${i}"/>
+    </c:forEach>
+
+    <p>OK.</p>
+
+</jsp:root>
